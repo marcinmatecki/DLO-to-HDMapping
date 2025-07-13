@@ -18,16 +18,6 @@
 #include <pcl_ros/point_cloud.h>
 #include "laz_writer.hpp"
 
-struct Point3Di
-{
-	Eigen::Vector3d point;
-	double timestamp;
-    float intensity;
-    int index_pose;
-    uint8_t lidarid;
-	int index_point;
-};
-
 struct TrajectoryPose
 {
     double timestamp_ns;
