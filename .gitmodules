@@ -1,8 +1,8 @@
 [submodule "src/direct_lidar_odometry"]
         path = src/direct_lidar_odometry
         url = https://github.com/vectr-ucla/direct_lidar_odometry.git
-[submodule "src/cpp_pubsub/src/3rdparty/LASzip"]
-	path = src/cpp_pubsub/src/3rdparty/LASzip
+[submodule "src/dlo-to-hdmapping/src/3rdparty/LASzip"]
+	path = src/dlo-to-hdmapping/src/3rdparty/LASzip
 	url = https://github.com/LASzip/LASzip.git
 [submodule "src/livox_ros_driver"]
 	path = src/livox_ros_driver

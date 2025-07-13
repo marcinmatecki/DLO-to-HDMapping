@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(cpp_pubsub)
+project(dlo-to-hdmapping)
 
 find_package(catkin QUIET COMPONENTS
   roscpp
@@ -48,7 +48,7 @@ include_directories(
   common
 )
 
-add_executable(listener src/direct_lidar_odometry_subscriber.cpp)
+add_executable(listener src/direct_lidar_odometry_subscriber.cpp src/laz_writer.cpp)
 
 
 

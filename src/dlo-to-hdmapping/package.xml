@@ -2,7 +2,7 @@
 <package format="3">
   <name>cpp_pubsub</name>
   <version>0.0.0</version>
-  <description>bag-fastlio-bag-session convert</description>
+  <description>dlo-to-hdmapping</description>
 
   <maintainer email="matecki.m@outlook.com">Marcin Matecki</maintainer>
   <!-- One license tag required, multiple allowed, one license per tag -->
