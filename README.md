@@ -31,7 +31,7 @@ rosbag record /robot/dlo/odom_node/odom /robot/dlo/odom_node/pointcloud/keyframe
 and start odometry:
 ```shell 
 cd /test_ws/
-source ./install/setup.sh # adjust to used shell
+source ./devel/setup.sh # adjust to used shell
 roslaunch direct_lidar_odometry dlo.launch pointcloud_topic:=<pc_topic_name> imu_topic:=<imu_topic_name>
 rosbag play <path_to_rosbag>
 ```
@@ -40,6 +40,6 @@ rosbag play <path_to_rosbag>
 
 ```shell
 cd /test_ws/
-source ./install/setup.sh # adjust to used shell
+source ./devel/setup.sh # adjust to used shell
 rosrun dlo-to-hdmapping listener <recorded_bag> <output_dir>
 ```
