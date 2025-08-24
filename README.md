@@ -58,7 +58,7 @@ Then, download **sequence2**.
 ## Record the bag file:
 
 ```shell
-rosbag record /kiss/local_map /kiss/odometry -o {your_directory_for_the_recorded_bag}
+rosbag record /robot/dlo/odom_node/odom /robot/dlo/odom_node/pointcloud/keyframe -O {your_directory_for_the_recorded_bag}
 ```
 
 ## DLO Launch:
